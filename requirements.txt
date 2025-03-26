@@ -1,0 +1,21 @@
+# Core ML frameworks
+tensorflow==2.12.0
+torch==2.0.0
+torchvision==0.15.0
+pytorch-lightning==1.9.5  # Changed to be compatible with anomalib
+
+# Computer Vision
+opencv-python==4.7.0.72
+albumentations==1.3.0
+
+# Anomaly Detection
+anomalib==0.7.0  # This version requires pytorch-lightning<1.10.0
+
+# Data Science
+numpy==1.23.5
+matplotlib==3.5.0
+scikit-learn==1.2.2
+
+# Utilities
+tensorboard==2.12.0
+tqdm==4.65.0

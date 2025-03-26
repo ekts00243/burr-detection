@@ -1,0 +1,16 @@
+name: burr-detection
+channels:
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.10
+  - cudatoolkit=12.4
+  - cudnn=8.9
+  - numpy=1.23.5
+  - tensorflow=2.12.0
+  - tensorflow-gpu=2.12.0
+  - opencv=4.7.0
+  - loguru
+  - pip
+  - pip:
+    - tensorboard==2.12.0
