@@ -1,0 +1,10 @@
+path: /home/bflcv/Documents/burr-detection
+
+# Train/val/test sets
+train: images/train  # train images (relative to working directory)
+val: images/train  # validation images (relative to working directory)
+
+
+# Classes
+nc: 1  # number of classes
+names: ['burr']  # class names
